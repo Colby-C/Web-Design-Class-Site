@@ -4,8 +4,8 @@
 
 body {
     background-color:rgb(238, 251, 251);
-    background-image: lined-paper.jpg;
-    font-family: Helvetica;
+    background-image: lined-paperjpg;
+    font-family: Helvetica, sans-serif;
     z-index: 1;
 }
 
