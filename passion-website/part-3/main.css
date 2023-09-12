@@ -4,6 +4,7 @@
 
 body {
     background-color:rgb(238, 251, 251);
+    background-image: lined-paper.jpg;
     font-family: Helvetica;
     z-index: 1;
 }
