@@ -37,7 +37,25 @@ body {
 }
 
 .pencils {
-    display: inline-block
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.carpenter {
+    text-align: center;
+    background-color: pink;
+    border: solid;
+}
+
+.golf {
+    text-align: center;
+    background-color: gray;
+    border: solid;
+}
+
+.indelible {
+    text-align: center;
+    background-color: yellow;
+    border: solid;
 }
