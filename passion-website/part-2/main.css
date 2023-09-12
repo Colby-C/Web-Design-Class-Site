@@ -59,3 +59,13 @@ body {
     background-color: yellow;
     border: solid;
 }
+
+.favorite {
+    text-align:center;
+    border: solid
+}
+
+.classes {
+    text-align:center;
+    border: solid
+}
