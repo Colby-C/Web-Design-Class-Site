@@ -1,0 +1,35 @@
+* {
+    margin-left: 50px;
+}
+
+body {
+    background-color:rgb(238, 251, 251);
+    font-family: Helvetica;
+    z-index: 1;
+}
+
+.text {
+    z-index: 1;
+}
+
+.vertical-line {
+    position: absolute;
+    border-left: 3px solid rgb(251, 0, 0);
+    height: 1000px;
+    z-index: -1;
+}
+
+.horizontal-lines-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -2;
+  }
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #1f84ff;
+    margin: 50px 0;
+  }

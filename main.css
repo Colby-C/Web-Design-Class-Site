@@ -1,4 +1,17 @@
 body {
     background-color: rgb(255, 247, 0);
-    font-family: Helvetica;
+}
+
+@font-face {
+    font-family: BN;
+    src: url();
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
 }

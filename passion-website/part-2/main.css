@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(238, 252, 252);
+    font-family: Helvetica;
+}
+
+.title {
+    background-color:pink;
+    text-align:center;
+    padding: 50px;
+    border-radius: 100% 100% 0 0;
+}
+
+.ferrule {
+    background-color: gray;
+    border: dashed 5px lightgray;
+    padding: 50px;
+}
+
+.paragraph {
+    background-color: yellow;
+    padding: 150px;
+}
+
+.collar {
+    background-color:#e3ca77;
+    padding: 75px;
+}
+
+.point {
+    border-top: 250px solid rgb(59, 59, 59);
+    border-left: 432px solid transparent;
+    border-right: 432px solid transparent;
+}
