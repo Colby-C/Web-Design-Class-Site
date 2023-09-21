@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+.try-again {
+    text-align: center;
+    font-size: 100px;
+    color: red;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: rgb(74, 74, 74);
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.door1 {
+    background-color: burlywood;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+}
+
+.door2 {
+    background-color: red;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door3 {
+    background-color: blue;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door4 {
+    background-color: purple;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door5 {
+    background-color: greenyellow;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door6 {
+    background-color: darkcyan;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door7 {
+    background-color: palevioletred;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door8 {
+    background-color:firebrick;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door9 {
+    background-color: turquoise;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door10 {
+    background-color: orange;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door11 {
+    background-color:darkgoldenrod;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door12 {
+    background-color:cadetblue;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door13 {
+    background-color:darkgreen;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door14 {
+    background-color:mediumslateblue;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.door15 {
+    background-color:coral;
+    width: 350px;
+    height: 500px;
+    border: 50px solid gray;
+    border-bottom: none;
+    border-radius: 100% 100% 0 0;
+    margin: 0 10px;
+}
+
+.congrats {
+    text-align: center;
+    font-size: 100px;
+    color: gold;
+    font-family: Helvetica; 
+}

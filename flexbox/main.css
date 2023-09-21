@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightblue;
+    padding: 10px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    align-content: center;
+
+    row-gap:10px;
+    column-gap: 40px;
+}
+
+.item {
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid;
+    
+    width: 300px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special {
+    background-color: chartreuse;
+    order: -1;
+}
