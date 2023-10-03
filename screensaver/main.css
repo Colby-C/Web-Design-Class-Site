@@ -42,7 +42,7 @@ body {
 }
 
 .right-left {
-    animation: move-right-left 6s infinite linear;
+    animation: move-right-left 5s infinite linear;
 }
 
 @keyframes move-right-left {
