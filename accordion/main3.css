@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(conveyor-belt.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+
+.scream-painting img {
+    max-width: 1200px;
+}
+
+.scream-painting {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.next-button {
+    display: none;
+}
+
+@media (max-width: 550px) and (max-height: 600px) {
+    body {
+        background-image: url('box.avif');
+        background-size: 100% 100vh;
+        background-repeat: no-repeat;
+    }
+
+    .next-button {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background-color: #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-family:Helvetica, sans-serif;
+        display: block;
+    }
+}
