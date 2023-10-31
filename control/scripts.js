@@ -44,7 +44,7 @@ function updateImage() {
         centeredImage.src = 'fire-censor.png';
         imageName.innerText = 'Burn and Censor';
     } else if (burn.classList.contains('active') && color.classList.contains('active')) {
-        centeredImage.src = 'fire-color.png';
+        centeredImage.src = 'color-fire.png';
         imageName.innerText = 'Burn and Color';
     } else if (censor.classList.contains('active') && color.classList.contains('active')) {
         centeredImage.src = 'censor-color.png';
