@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+body.dark {
+    background-color:darkslategray;
+    transition: background-color .3s;
+}
+
+.flex {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: darkkhaki;
+    transition: background-color .3s, box-shadow .3s;
+
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
+}
+
+.box.dark {
+    background-color: darkolivegreen;    
+}
+
+.box.glow {
+    background-color: lightyellow;
+    box-shadow: 0 0 10px 5px lightyellow;
+}
+
+.box.dark.glow {
+    background-color: azure;
+    box-shadow: 0 0 25px 5px azure;
+}
+
+.box.spin {
+    animation-play-state: running;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.chair {
+    width: 200px;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.draggable {
+    cursor: grab;
+}

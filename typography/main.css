@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'bn_scouts-hand';
+    src: url('bnscoutshand-webfont.woff2') format('woff2'),
+         url('bnscoutshand-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: darkkhaki;
+}
+
+.defaults {
+    font-family: helvetica, sans-serif;
+}
+
+.google {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.new-google {
+    font-family: 'Righteous', sans-serif;
+}
+
+.squirrel {
+    font-family: 'bn_scouts-hand', sans serif;
+}
